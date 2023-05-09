@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TemperatureConverter</title>
+    <link rel="stylesheet" type="text/css" href="tempConverter.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>TemperatureConverter</h1>
+        <div class="label1"><label for="celsius">Celsius : </label>
+            <input type="number" class="input" placeholder="Enter the value of Temperature in celsius" id="celsius"
+                name="celsius" oninput="Tempconvert('celsius')"><br><br>
+        </div>
+        <div class="label2"><label for="fahrenheit">Fahrenheit :</label>
+            <input type="number" class="input" placeholder="Enter the value of Temperature in fahrenheit"
+                id="fahrenheit" name="fahrenheit" oninput="Tempconvert('fahrenheit')"><br><br>
+        </div>
+
+        <div class="label3"><label for="kelvin">Kelvin :</label>
+            <input type="number" class="input" placeholder="Enter the value of Temperature in kelvin" id="kelvin"
+                name="kelvin" oninput="Tempconvert('kelvin')">
+        </div>
+
+
+    </div>
+
+    <script src="tempConverter.js"></script>
+</body>
+
+</html>

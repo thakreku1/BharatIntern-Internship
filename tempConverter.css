@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #be67e6;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLy78-7NCXRBIQhbb-gmXdj1Wy8GLYZJUUzw&usqp=CAU");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size:100vw 100vh;
+    }
+
+    
+    .container {
+        height:100vh;
+        width: 100vw;
+        text-align: center;
+        
+    }
+    
+    
+    input[type="number"] {
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+        border: rgb(14, 16, 27);
+        margin: 10px;
+        width: 30%;
+    }
+    
+    h1 {
+        color: rgb(4, 106, 249);
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .label1{
+        color: rgb(15, 138, 232);
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .label2{
+        color: rgb(126, 10, 243);
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .label3{
+        color: rgb(249, 28, 13);
+        font-size: 30px;
+        margin-right: 10px;
+    }
